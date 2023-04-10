@@ -17,6 +17,8 @@ module.exports = {
       'tertiary': '#403d39',
       'primary-bg': '#F7F7F7',
       'secondary-bg': '#FFFFFF',
+      'red': '#d90429',
+      'white': '#FFFFFF'
     },
     screens: {
       'xl': {'max': '1920px'},

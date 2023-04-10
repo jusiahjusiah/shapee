@@ -6,17 +6,17 @@ export default function Navbar() {
   return (
     <nav className='flex bg-primary fixed w-full align p-4 items-center mx-auto'>
       {/* logo */}
-      <div className='flex text-secondary-bg font-semibold text-4xl mx-auto'>
+      <div className='flex text-secondary-bg font-semibold text-4xl mx-auto sm:hidden'>
           <Tote size={40} color="#fffcf2" className="" weight="fill" />
             <Link to="/">
               <h1 className='px-3'>Shapee</h1>
             </Link>
       </div>
       {/* Search bar */}
-      <div className='flex align-bottom bg-secondary-bg w-2/4 rounded-3xl mx-auto ml-1'>
+      <div className='flex align-bottom bg-secondary-bg w-2/4 rounded-3xl mx-auto ml-1 md:w-auto'>
         <input type="text"
           className='h-11 w-full rounded-3xl px-4 truncate focus:outline-none'
-          placeholder='Search an item here! adasdadadas'
+          placeholder='Search an item here!'
         />
         <MagnifyingGlass size={32} color="#eb5e28" className="mx-4 my-1"/>
       </div>
